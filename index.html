@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#28584c">
+<meta name="description" content="Рост — спокойный дневник движения: безопасный старт, маленькие шаги и радость от своих возможностей.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Рост — маленькие шаги, большая сила</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">К тренировке</a>
+<div class="app-shell">
+<aside class="sidebar">
+<a class="brand" href="#today" aria-label="Рост — главная"><span class="brand-mark" aria-hidden="true">✳</span><span>рост<span class="brand-dot">.</span></span></a>
+<p class="brand-caption">Маленькие шаги.<br>Большая сила.</p>
+<div class="nav-label">МОЁ ПРОСТРАНСТВО</div>
+<nav class="navigation" aria-label="Главное меню">
+<button data-view="today" class="nav-button active"><span aria-hidden="true">◷</span><span>Мой день</span></button>
+<button data-view="week" class="nav-button"><span aria-hidden="true">▦</span><span>Моя неделя</span></button>
+<button data-view="progress" class="nav-button"><span aria-hidden="true">›</span><span>Мои шаги</span></button>
+<button data-view="parents" class="nav-button"><span aria-hidden="true">♡</span><span>Взрослым</span></button>
+</nav>
+<div class="sidebar-bottom"><div class="small-flower" aria-hidden="true">✺</div><p>У каждого роста<br>свой ритм.</p><span>Отдых — тоже часть пути.</span></div>
+<a class="install-link" href="install.html">Как установить <span aria-hidden="true">›</span></a>
+</aside>
+<div class="workspace">
+<header class="topbar"><div class="breadcrumb">ЛИЧНЫЙ ДНЕВНИК ДВИЖЕНИЯ <span>/</span> <strong id="view-label">МОЙ ДЕНЬ</strong></div><span id="connection" class="connection"><i></i>На этом устройстве</span></header>
+<main id="main" tabindex="-1"><div class="loading-state"><span class="brand-mark">✳</span><h1>Твой маленький шаг уже рядом.</h1><p>Открываем программу…</p></div></main>
+<footer class="page-footer"><span>Расти в своём темпе.</span><span id="version">Рост · 1.0</span></footer>
+</div>
+</div>
+<div id="toast" role="status" aria-live="polite" class="toast"></div>
+<div id="timer-panel" class="timer-panel" hidden><div><span class="eyebrow">ТИХАЯ ПАУЗА</span><strong id="timer-display">01:00</strong></div><button id="timer-stop" class="icon-button" aria-label="Закрыть таймер">×</button></div>
+<div id="update-banner" class="update-banner" hidden><span>Доступна новая версия приложения. Записи сохранены.</span><button id="reload-app" class="button dark">Обновить</button></div>
+<input type="file" id="import-file" accept="application/json,.json" hidden>
+<noscript><p class="noscript">Для дневника необходимо включить JavaScript. Программа находится в файле program.json.</p></noscript>
+</body>
+</html>
