@@ -1,5 +1,5 @@
 /* Increment BUILD whenever app files change. program.json updates independently. */
-const BUILD='rost-v1.0.2';
+const BUILD='rost-v1.1.0';
 const PREFIX='rost-shell-'+encodeURIComponent(new URL(self.registration.scope).pathname)+'-';
 const CACHE=PREFIX+BUILD;
 const CORE=['./','index.html','styles.css','app.js','program.json','manifest.webmanifest','icon-192.png','icon-512.png','icon.svg','install.html'];
