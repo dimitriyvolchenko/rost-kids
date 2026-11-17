@@ -2,7 +2,9 @@
 
 Небольшое приложение для знакомства с физической подготовкой: три силовых дня со взрослым и два дня легкой активности. Русский интерфейс, подходы и повторы, план и факт по каждому подходу, отметки выполнения, журнал на устройстве и обновление расписания через JSON.
 
-Репозиторий приложения: [dimitriyvolchenko/rost-kids](https://github.com/dimitriyvolchenko/rost-kids). Адрес опубликованного сайта доступен в Settings → Pages.
+**[Открыть приложение «Рост»](https://dimitriyvolchenko.github.io/rost-kids/)** · [Иллюстрированная инструкция](https://dimitriyvolchenko.github.io/rost-kids/install.html)
+
+Репозиторий приложения: [dimitriyvolchenko/rost-kids](https://github.com/dimitriyvolchenko/rost-kids). Сайт опубликован через GitHub Pages из ветки `main`, папка `/ (root)`.
 
 ## Установка и публикация
 
